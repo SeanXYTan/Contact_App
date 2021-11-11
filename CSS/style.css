@@ -73,6 +73,10 @@ img {
 .pine {
     background-color: #31748f;
 }
+
+.surface {
+    color: #1f1d2e;
+}
 /*IDs end*/
 
 /*Containers*/
@@ -106,10 +110,6 @@ img {
     object-fit: cover;
     padding: 2%;
 }
-
-
-
-
 /*End of containers*/
 
 
@@ -126,10 +126,6 @@ img {
 
     .contact-form {
         margin-left: 25%;
-    }
-
-    img {
-        width: 50px;
     }
 }
 
