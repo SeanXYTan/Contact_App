@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: #9ccfd8;
+    overflow: hidden;
+    width: 20%;
+    min-width: 150px;
+    height: 100%;
+}
+
+.navigation a {
+    float: left;
+    color: #31748f;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navigation a.active {
+  background-color: #E3B7B6;
+  color: #2a2b2a;
+}
+
+.navigation a:hover {
+    background-color: #31748f;
+    color: #2a2837;
+    width: 100%;
+  }
+
+.sticky {
+    position: fixed;
+    left: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #191724;
+    margin-left: 20%;
+}
+
+.contact-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.contact-item {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 100px 0px
+}
+
+#contact1 {
+    background-color: #eb6f92;
+}
+
+#contact2 {
+    background-color: #f6c177;
+}
+
+#contact3 {
+    background-color: #ebbcba;
+}
+
+@media screen and (max-width: 550px) {
+    .contact-container {
+        margin-left: 20%;
+    }
+}
