@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Montserrat';
+    color: #e0def4;
 }
 
 body {
@@ -10,6 +11,15 @@ body {
 
 img {
     width: 100px;
+}
+
+.button {
+    border-radius: 10%;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px;
 }
 
 /*Navbar*/
@@ -43,21 +53,29 @@ img {
 }
 /*Navbar end*/
 
-/*IDs*/
-#contact1 {
+/*colours*/
+.love {
     background-color: #eb6f92;
 }
 
-#contact2 {
+.gold {
     background-color: #f6c177;
 }
 
-#contact3 {
+.rose {
     background-color: #ebbcba;
+}
+
+.iris {
+    background-color: #c4a7e7;
+}
+
+.pine {
+    background-color: #31748f;
 }
 /*IDs end*/
 
-/*Flexboxes for the contacts*/
+/*Containers*/
 .contact-container {
     display: flex;
     flex-flow: row wrap;
@@ -72,7 +90,27 @@ img {
     text-align: center;
     padding: 100px 0px
 }
-/*End of flexboxes*/
+
+.contact-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding: 10%;
+}
+
+.rounded-border {
+    width: 100px;
+    border-radius: 50%;
+    background-color: #6e6a86;
+    object-fit: cover;
+    padding: 2%;
+}
+
+
+
+
+/*End of containers*/
 
 
 /*Media changes for a mobile app*/
@@ -84,6 +122,10 @@ img {
 
     .contact-item {
         padding: 70px 0px
+    }
+
+    .contact-form {
+        margin-left: 25%;
     }
 
     img {
